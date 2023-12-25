@@ -14,7 +14,10 @@
     "skipLibCheck": true,
     "skipDefaultLibCheck": true,
     "baseUrl": ".",
-    "paths": {}
+    "paths": {
+      "@learn-monorepo/uikit": ["libs/uikit/src/index.ts"],
+      "@learn-monorepo/uikit/server": ["libs/uikit/src/server.ts"]
+    }
   },
   "exclude": ["node_modules", "tmp"]
 }
